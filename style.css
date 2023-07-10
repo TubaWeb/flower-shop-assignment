@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+/* start banner style */
+.banner-section{
+    width: 1920px;
+    height: 850px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px;
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.banner-title{
+    width: 800px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.banner-description{
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.btn{
+    font-size: 20px;
+    padding: 20px 43px;
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(115, 202, 115);
+    cursor: pointer;
+}
+.banner-image{
+    width: 635px;
+    height: 800px;
+    margin-left: 97px;
+}
+/* end banner style */
+
+/* start Hot Deal style */
+
+/* end Hot Deal style */
+
