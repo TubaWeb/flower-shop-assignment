@@ -11,12 +11,14 @@ font-family: 'Open Sans', sans-serif;
     width: 1920px;
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
+    gap: 97px;
 }
 .banner-container{
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 200px;
+    /* padding: 200px; */
 }
 .banner-info{
     display: flex;
@@ -53,11 +55,44 @@ font-family: 'Open Sans', sans-serif;
 .banner-image{
     width: 635px;
     height: 800px;
-    margin-left: 97px;
+    margin-top: 50px;
+    /* margin-left: 97px; */
 }
 /* end banner style */
 
 /* start Hot Deal style */
-
+.hot-deal-section{
+    width: 1920px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 350px;
+}
+.hot-deal-info{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+span{
+    color: #E55473;;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
 /* end Hot Deal style */
 
