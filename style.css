@@ -96,3 +96,33 @@ span{
 }
 /* end Hot Deal style */
 
+/* end instagram style */
+
+.instagram{
+    width: 1920px;
+    height: 4867px;
+}
+.instagram-info{
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25PX;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* end instagram style */
