@@ -12,6 +12,7 @@ font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
 }
 .logo-img{
     width: 200px;
@@ -177,21 +178,14 @@ font-family: 'Open Sans', sans-serif;
 .hot-deal-section{
     width: 1920px;
     height: 620px;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-}
-.hot-deal-container{
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 350px;
+    /* background: rgba(229, 84, 115, 0.05); */
 }
 .hot-deal-info{
-    display: flex;
     width: 600px;
+    display:flex;
+    justify-content: space-between;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     gap: 20px;
 }
 .hot-deal-title{
@@ -199,13 +193,21 @@ font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 800;
 }
-span{
+.span-color{
     color: #E55473;;
 }
 .hot-deal-description{
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hot-deal-container{
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 0 400px;
 }
 /* end Hot Deal style */
 
@@ -213,8 +215,6 @@ span{
 
 .instagram{
     width: 1920px;
-    /* height: 4867px; */
-    /* background-color: aquamarine; */
 }
 .instagram-info{
     margin-top: 128px;
@@ -267,7 +267,6 @@ span{
     align-items: center;
     margin-bottom: 128px;
     background-image: url("./Rectangle\ 9.png");
-    background-color: aquamarine;
 }
 .bg-title{
     color: #272727;
@@ -334,8 +333,6 @@ span{
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
-    /* padding-bottom: 128px; */
-    /* margin-bottom: 128px; */
 }
 .footer-container{
     padding: 80px;
@@ -343,7 +340,6 @@ span{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* margin-bottom: 128px; */
 }
 
 /* end footer style */
