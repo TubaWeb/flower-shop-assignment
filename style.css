@@ -6,6 +6,28 @@ body{
     font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
+/* start nav style */
+.nav-container{
+    background-color: rgb(250, 233, 212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-img{
+    width: 200px;
+}
+.list-item ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 40px;
+    font-size: 20px;
+}
+.list:hover{
+    color: #E55473;
+    cursor: pointer;
+}
+/* end nav style */
 /* start banner style */
 .banner-section{
     width: 1920px;
