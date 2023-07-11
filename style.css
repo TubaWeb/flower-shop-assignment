@@ -145,6 +145,34 @@ font-family: 'Open Sans', sans-serif;
 }
 /* end featured style */
 
+/* start icon style */
+.icons{
+    width: 1240px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-container{
+    background-color: #f7f6f6;
+    width: 440px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-img{
+    width: 88px;
+    height: 88px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* end icon style */
+
 /* start Hot Deal style */
 .hot-deal-section{
     width: 1920px;
