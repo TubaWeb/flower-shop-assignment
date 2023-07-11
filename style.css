@@ -100,7 +100,7 @@ span{
 
 .instagram{
     width: 1920px;
-    height: 4867px;
+    /* height: 4867px; */
     /* background-color: aquamarine; */
 }
 .instagram-info{
@@ -183,3 +183,53 @@ span{
 }
 
 /* end instagram style */
+
+/* start footer style */
+.footer{
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;;
+    color: white;
+}
+.footer-info{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-title{
+    color: #E55473;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+span{
+    color: white;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    width: 625px;
+    text-align: center;
+    font-size: 18px;
+    /* margin: 0px 640px; */
+    margin-bottom: 32px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    /* padding-bottom: 128px; */
+    /* margin-bottom: 128px; */
+}
+.footer-container{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 128px; */
+}
+
+/* end footer style */
